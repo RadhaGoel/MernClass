@@ -1,0 +1,96 @@
+/* Reset default margins/paddings */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Image Styling */
+img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.hobby-list{
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.hobby-list li{
+    margin: 5px 0;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.hobby-list li:hover{
+    background-color: #e3f2fd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid #333;
+}
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Form Styling */
+input, button {
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
