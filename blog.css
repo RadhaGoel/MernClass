@@ -1,0 +1,71 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9fafb;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #0077cc;
+}
+
+/* Main Content */
+.content {
+  max-width: 900px;
+  margin: 100px auto 40px; /* 100px top to avoid overlap with fixed nav */
+  padding: 0 20px;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  padding: 20px 0;
+  text-align: center;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.socials img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1); /* makes icons white */
+  transition: 0.3s;
+}
+.socials img:hover {
+  transform: scale(1.1);
+  filter: none; /* shows original colors on hover */
+}
