@@ -9,18 +9,6 @@ body {
   position: fixed;
 }
 
-.resume {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 800px;
-  height: 100vh;       /* full viewport height */
-  overflow-y: auto;    /* allow scrolling inside */
-  background: white;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
 
 h1 {
   font-size: 28px;
